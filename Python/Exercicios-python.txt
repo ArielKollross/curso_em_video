@@ -1,0 +1,9 @@
+#Exercícios de Python
+
+#001 - Crie um script Python que leia o noem de uma pessoa e mostre uma mensagem de boas-vindas de acordo com o valor digitado.
+
+#002 - Crie um script Python que leia o dia, o mês e o ano de nasciemento de uma pessoa e mostre uma mensagem com a data formatada.
+
+#003 - Crie um script Python que leia dois números e tente mostrar a soma entre eles.
+
+#004 - Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações possiveis sobre ele.
