@@ -4,6 +4,9 @@ Autor: Ariel Kollross
 
 Resolução de exercicios referente ao curso no youtube (Prof. Gustavo Guanabara).
 
+-> Python;
+-> Php;
+
 A playlist pode ser acessada pelo link abaixo,
 
-https://www.youtube.com/watch?v=F7KzJ7e6EAc&list=PLHz_AreHm4dm4beCCCmW4xwpmLf6EHY9k
+https://www.youtube.com/user/cursosemvideo/playlists
