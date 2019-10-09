@@ -6,6 +6,7 @@ Resolução de exercicios referente ao curso no youtube (Prof. Gustavo Guanabara
 
 - Python;
 - Php;
+- POO em php;
 
 A playlist pode ser acessada pelo link abaixo,
 
