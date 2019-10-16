@@ -1,0 +1,17 @@
+Classe Weapon
+    
+    type: string
+    attack: int
+    speed: float
+    Weigth: float
+    tier: int
+
+    Metodo enchant()
+
+        tier = tier + 1 
+        attack = attack * 0.15 + attack
+        speed = speed + 0.1
+        
+    Fim metodo
+    
+FIm Classe

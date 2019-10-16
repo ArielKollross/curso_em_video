@@ -1,0 +1,30 @@
+Classe Char
+    race: string
+    set: string
+    strength: int
+    dexterity: int
+    intelligence: int
+    logged = bool
+    combat = bool
+
+    Metodo logged()
+
+        if logged = true
+           print("Char is online!")
+        else
+           print("Char is offline!")
+
+        Fim metodo 
+    
+    Metodo combat()
+
+        if combat = true 
+            print("Ready for combat!")
+        else
+            print("I can't figth now!")
+    
+    Metodo logout()
+        logged = false
+    
+        Fim metodo
+Fim Classe 
