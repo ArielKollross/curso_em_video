@@ -4,12 +4,12 @@ Classe Char
     strength: int
     dexterity: int
     intelligence: int
-    logged = bool
-    combat = bool
+    logged: bool
+    combat: bool
 
     Metodo logged()
 
-        if logged = true
+        if logged == true
            print("Char is online!")
         else
            print("Char is offline!")
@@ -18,13 +18,14 @@ Classe Char
     
     Metodo combat()
 
-        if combat = true 
+        if combat == true 
             print("Ready for combat!")
         else
             print("I can't figth now!")
     
     Metodo logout()
-        logged = false
+    
+        logged == false
     
         Fim metodo
 Fim Classe 
