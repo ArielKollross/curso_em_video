@@ -1,0 +1,23 @@
+Classe Trabalho
+    
+    ponto:bool
+    tempo: int
+    atendimento: string
+    analise: string
+    ligação: bool
+    
+    Metodo ligar()
+
+        if ligação == true
+            count = count++
+        else
+            print("não esta em atendimento")
+    
+    Fim método
+            
+    Metodo atendimentoFeitos()
+            print("{count} ligações já realizadas")
+        
+    Fim metodo  
+
+Fim Classe 
