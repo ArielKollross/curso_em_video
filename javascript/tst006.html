@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            font: normal 15pt Ubuntu;
+            color: white;
+            background-color: darkgrey;
+        }
+        input#pais{
+            margin-top: 15px;
+            font: normal 12pt Ubuntu;
+        }
+    </style>
+</head>
+<body>
+    Digite seu pais(country):<input type="text" name="pais" id="pais">
+    <input type="button" value="verificar!" onclick="calcular()">
+    <div id="res">Vc eh:</div>
+
+    <script>
+        function calcular() {
+            var pais = window.document.querySelector('input#pais')
+            var res = window.document.querySelector('div#res')
+            var p = pais.value.toLowerCase()
+            if(p == 'brasil' || p == 'br'){
+                res.innerHTML = 'Vc eh: BR HU3HU3HU31'
+            }else{
+                res.innerHTML= 'Vc eh: Estrangeiro!'
+            }
+        }
+    </script>
+</body>
+</html>
