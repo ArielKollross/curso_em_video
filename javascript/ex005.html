@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(54, 52, 52);
+            color: rgb(207, 17, 96);
+            font: normal 20pt Ubuntu;
+        }
+    </style>
+</head>
+<body>
+    <h1>Curso de JavaScript</h1>
+    <p>Estudos com <strong>DOM</strong></p>
+    <p>2o paragrafo</p>
+    <div id="msg">Clique em mim</div>
+    <script>
+        var p1 = window.document.getElementsByTagName('p')[0] // selecionamos o 1o paragrafo
+        window.document.write(p1.innerText)//innerText -> escrever o texto que esta em p1
+        window.document.write(p1.innerHTML)// considera a formatacao html
+        //document.getElementById() //elemento selecionado por ID
+        //document.getElementsByName()//elemento selecionado por nome   
+        //document.getElementsByClassName()//selecionado por classe, etc etc
+
+        var d = document.querySelector('div#msg') //selecao por elemento CSS
+        d.innerText ='Novo texto'
+    </script>
+</body>
+</html>

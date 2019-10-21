@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            font: normal 15pt Ubuntu;
+            background-color: rgb(54, 55, 56);
+            color: cornsilk;
+        }
+        input{
+            width: 90px;
+            font: normal 10pt Ubuntu;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    velocidade do carro : <input type="number" name="txtspd" id="txtspd">
+    <input type="button" value="verificar!" onclick="calcular()">
+    <div id="res">Resultado: </div>
+    <script>
+        function calcular() {
+            var txtvel = window.document.querySelector('input#txtspd')
+            var res = window.document.querySelector('div#res')
+            var spd = Number(txtspd.value)
+            if (spd <= 70){
+                res.innerHTML = 'Resultado: segue viajem'
+            }else{
+                res.innerHTML = 'Resultado: vc foi multado'
+            }
+        }
+    </script>
+</body>
+</html>
