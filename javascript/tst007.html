@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="form">
+        <section>
+            Nome: <input type="text" id="name"><br>
+            Email: <input type="text" id="email"><br>
+            Telefone: <input type="text" id="phone"><br>
+            Nº Documento: <input type="text" id="document"><br>
+            Senha: <input type="text" id="pwd"><br>
+            Confirmar senha : <input type="text" id="pwd-confirm">
+            <input type="button" value="Salvar" onclick="save()">
+            <div id="res"></div>
+        </section>
+    </div>
+
+    <script>
+        var name = window.document.getElementById('name').value
+        var email = document.getElementById('email').value
+        var phone = document.getElementById('phone').value
+        var documnetNumber = document.getElementById('documente').value
+
+        function save() {
+            res.innerHTML = `Nome: ${name} \n Email: ${email}`
+            
+        }
+        
+    </script>
+</body>
+</html>
