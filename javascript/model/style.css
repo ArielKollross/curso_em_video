@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(80, 68, 68);
+    font: 14pt Ubuntu;
+    color: white;
+}
+
+header{
+    text-align: center;
+}
+
+section{
+    background-color: white;
+    color: black;
+    font: 14pt Ubuntu;
+
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.137);
+
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+}            
