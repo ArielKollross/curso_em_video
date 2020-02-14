@@ -16,16 +16,20 @@
 <body>
     <h1>Curso de JavaScript</h1>
     <p>Estudos com <strong>DOM</strong></p>
-    <p>2o paragrafo</p>
-    <div id="msg">Clique em mim</div>
+    <p>2o paragrafo</p><br>
+    <div id="msg">Clique em mim</div><br>
     <script>
-        var p1 = window.document.getElementsByTagName('p')[0] // selecionamos o 1o paragrafo
+       // window.document.write('Hello world') // escreve uma msg no body
+       window.document.write(window.document.charset) 
+       window.document.write(window.document.URL) 
+        var p1 = window.document.getElementsByTagName('p')[0] //[0] -> selecionamos o 1o paragrafo, [1] -> segundo paragrafo
         window.document.write(p1.innerText)//innerText -> escrever o texto que esta em p1
-        window.document.write(p1.innerHTML)// considera a formatacao html
-        //document.getElementById() //elemento selecionado por ID
+        window.document.write(p1.innerHTML)// considera a formatacao html, no caso <strong></
+        //window.document.getElementById() //elemento selecionado por ID
         //document.getElementsByName()//elemento selecionado por nome   
         //document.getElementsByClassName()//selecionado por classe, etc etc
 
+        p1.style.color = 'white'
         var d = document.querySelector('div#msg') //selecao por elemento CSS
         d.innerText ='Novo texto'
     </script>

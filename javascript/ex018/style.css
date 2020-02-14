@@ -21,8 +21,12 @@ section{
 
 }
 
-div{
+div#msg{
+    background-color: rgb(199, 199, 199);
     text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
 }
 
 footer{
